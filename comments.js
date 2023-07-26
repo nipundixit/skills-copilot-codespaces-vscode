@@ -1,6 +1,5 @@
 //create web server
-//create a port
-//create a route
-//create a request handler
-//start the server
-//listen to the port
+import express from 'express';
+const app = express();
+const port = 3000;
+import path from 'path';
